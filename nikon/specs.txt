@@ -1,0 +1,8 @@
+Nikon1: 
+Camera:Nikon D800, Lens:AF Nikkor 50mm f/1.8D, Aperture:f/5.6, Shutter Speed: 1/125, ISO:100
+
+Nikon2:
+Camera:Nikon D810, Lens:AF-S NIKKOR 24-70mm f/2.8G ED, Aperture:f/10.1, Shutter Speed: 1/125, ISO:100
+
+Nikon3:
+Camera:Nikon D7000, Lens:AF-S DX NIKKOR 18-55mm f/3.5-5.6G VR (3.0x), Aperture:f/4, Shutter Speed: 1/40, ISO:320

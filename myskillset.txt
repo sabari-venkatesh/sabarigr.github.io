@@ -1,0 +1,10 @@
+Skillset
+	HTML5, CSS3, JavaScript, jQuery, AJAX, Bootstrap v2&3, Adobe Photoshop 7, SASS, Compass, Git/Github, PHP, Wordpress, Drupal, MySQL, SVG, GreenSock, Handlebars
+Responsibilities
+• Converting Photoshop layouts into HTML & CSS design
+• Design custom grid layouts in CSS
+• Design mobile and tablet devices friendly layouts using adopting the principles of Responsive web design (RWD)
+• Automate CSS development workflow by writing modular, reusable SASS (Syntactically Awesome StyleSheets)
+• Write scalable and reusable code in Javascript & jQuery for client-side form validation and handling UI interactions
+• Create pluggable UI components in Javascript
+• Create responsive e-mail templates for marketing campaigns

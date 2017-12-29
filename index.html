@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Hello Sabari</title>
+	<style>
+		* {
+			margin: 0;
+			box-sizing: border-box;
+		}
+
+		.content {
+			max-width: 1200px;
+			margin: 0 auto;
+			background: #fff;
+		}
+
+		.border-xmas {
+			height: 0;
+			border-width: 1em 2em;
+			border-style: none none solid solid;
+			border-color: rgba(53, 0, 0, 0) #250202 #ca7e7e rgba(226, 14, 14, 0);
+			float: right;
+			clear: right;
+			box-sizing: content-box;
+		}
+
+		.border-step {
+			height: 0;
+			border-width: 1em;
+			border-style: solid solid none none;
+			border-color: #000;
+			float: right;
+			clear: right;
+			box-sizing: content-box;
+		}
+
+		.border {
+			height: 0;
+			width: 0;
+			border-width: 0 0 10em 10em;
+			border-style: solid;
+			border-color: transparent transparent #222 transparent;
+			float: right;
+			clear: right;
+			box-sizing: content-box;
+		}
+
+		.border:nth-child(2) {
+			width: 10em;
+		}
+
+		.border:nth-child(3) {
+			width: 20em;
+		}
+
+		@media (min-width: 1200px) {
+			.border {
+				border-width: 0 0 5em 25em;
+			}
+			.border:nth-child(2) {
+				width: 25em;
+			}
+			.border:nth-child(3) {
+				width: 50em;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="content">
+		<div class="border"></div>
+		<div class="border"></div>
+		<div class="border"></div>
+		<!--<div class="border" style="width: 15em"></div>
+		<div class="border" style="width: 20em"></div>
+		<div class="border" style="width: 25em"></div>
+		<div class="border" style="width: 30em"></div>
+		<div class="border" style="width: 35em"></div>
+		<div class="border" style="width: 40em"></div>
+		<div class="border" style="width: 45em"></div>
+		<div class="border" style="width: 50em"></div>
+		<div class="border" style="width: 55em"></div>
+		<div class="border" style="width: 60em"></div>
+		<div class="border" style="width: 65em"></div>
+		<div class="border" style="width: 70em"></div>-->
+		<h1>Create a Digital Edge</h1>
+		<p>
+			Your business's digital transformation is about forging new connections and capabilities across the enterprise and your customers by utilizing emerging digital technology advancements in innovative ways that help drive revenue.</p>
+	</div>
+</body>
+
+</html>
