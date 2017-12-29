@@ -1,6 +1,0 @@
-[submodule "test"]
-	path = test
-	url = git@github.com:sabarigr/test.git
-[submodule "jekyll-theme"]
-	path = jekyll-theme
-	url = git@github-personal:sabarigr/jekyll-theme.git
