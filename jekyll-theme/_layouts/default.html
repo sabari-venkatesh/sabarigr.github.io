@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body class="hold-transition skin-blue sidebar-mini">
+		<div class="wrapper">
+			<!-- Main Header -->
+			{% include header.html %}
+			<!-- /.main-header -->
+
+			<!-- Left side column. contains the logo and sidebar -->
+			{% include sidebar.html %}
+			<!-- /.main-sidebar -->
+
+			<!-- Content Wrapper. Contains page content -->
+			<div class="content-wrapper">
+
+				<!-- Content Header (Page header) -->
+				{% include content-header.html %}
+				<!-- ./content-header -->
+
+				<!-- Main content -->
+				{{ content }}
+				<!-- /.content -->
+
+			</div>
+			<!-- /.content-wrapper -->
+
+			<!-- Main Footer -->
+    	{% include footer.html %}
+    	<!-- /.main-footer -->
+		</div>
+		<!-- ./wrapper -->
+
+		<!-- REQUIRED JS SCRIPTS -->
+		{% include scripts.html %}
+	</body>
+
+</html>
