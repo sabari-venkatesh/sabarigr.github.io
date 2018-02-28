@@ -1,20 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>invite</title>
+    <style>
+        body {
+            color: #FF495F;
+            background: black;
+        }
+
+        svg * {
+            fill: none;
+            stroke: currentColor;
+        }
+
+        svg path {
+            fill: white;
+            transition: fill 2s ease;
+        }
+
+    </style>
 </head>
+
 <body>
-<!--    https://www.iconfinder.com/icons/2903240/happy_mail_valentine_icon#size=128-->
-<!--https://www.vistaprint.in/stationery/wedding-invitations?xnav=Wedding_ProductTile_cta1_pc32&GP=02%2f26%2f2018+02%3a01%3a13&GPS=4875278308&GNF=0-->
-<!--http://editor.method.ac/-->
+    <!--    https://www.iconfinder.com/icons/2903240/happy_mail_valentine_icon#size=128-->
+    <!--https://www.vistaprint.in/stationery/wedding-invitations?xnav=Wedding_ProductTile_cta1_pc32&GP=02%2f26%2f2018+02%3a01%3a13&GPS=4875278308&GNF=0-->
+    <!--http://editor.method.ac/-->
+ 
+    <script src="vivus.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
+<div id="obj">
+    
+</div>
 
-<div id="my-div"></div>
 
-<script>
-  new Vivus('my-div', {duration: 200, file: 'circle.svg'});
-</script>
+    <script>
+        var vivus = new Vivus('obj', {
+            type: 'oneByOne',
+            duration: 150,
+            file: 'svg/tamil.svg'
+        }, () => {
+            vivus.play(-1);
+            Array.prototype.forEach.call(document.querySelectorAll('path'), (item) => {
+                item.style.fill = 'yellow';
+            });
+            console.log(vivus.getStatus())
+        });
+
+    </script>
 </body>
+
 </html>
