@@ -7,7 +7,6 @@
     <style>
         body {
             color: #FF495F;
-            background: black;
         }
 
         svg * {
@@ -39,13 +38,11 @@
         var vivus = new Vivus('obj', {
             type: 'oneByOne',
             duration: 150,
-            file: 'svg/tamil.svg'
+            file: 'svg/google.svg'
         }, () => {
-            vivus.play(-1);
             Array.prototype.forEach.call(document.querySelectorAll('path'), (item) => {
                 item.style.fill = 'yellow';
             });
-            console.log(vivus.getStatus())
         });
 
     </script>
